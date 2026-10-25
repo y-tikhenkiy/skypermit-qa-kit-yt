@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "deny": [
+      "Edit(//Users/y.tykhenkyi/personal/genai-course/skypermit/**)",
+      "Write(//Users/y.tykhenkyi/personal/genai-course/skypermit/**)",
+      "Edit(../skypermit/**)",
+      "Write(../skypermit/**)",
+      "WebFetch",
+      "WebSearch"
+    ]
+  }
+}
