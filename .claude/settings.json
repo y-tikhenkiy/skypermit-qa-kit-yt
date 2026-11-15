@@ -8,5 +8,18 @@
       "WebFetch",
       "WebSearch"
     ]
+  },
+  "hooks": {
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PROJECT_DIR}/.claude/hooks/usage-report.mjs\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
   }
 }
